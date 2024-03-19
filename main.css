@@ -1,3 +1,28 @@
 body {
-    background-image: url("./assets/rainbow-tie-dye-background-with-pastel-swirl-watercolor-paint_53876-108457.jpeg")
+    background-image: url("./assets/rainbow-tie-dye-background-with-pastel-swirl-watercolor-paint_53876-108457.jpeg");
+    margin: 0;
 }
+
+header {
+    background-color: pink;
+    text-align: center;
+    padding: .75rem 0;
+    border-bottom: solid 1px dimgrey;
+    box-shadow: 
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header a {
+    color: darkblue;
+    background-color:peachpuff;
+    border: solid .50px peachpuff;
+    border-radius:0.5px;
+    padding: .50rem 1rem;
+}
+
+
