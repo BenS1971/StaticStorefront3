@@ -1,6 +1,11 @@
 body {
     background-image: url("./assets/rainbow-tie-dye-background-with-pastel-swirl-watercolor-paint_53876-108457.jpeg");
     margin: 0;
+    padding:0;
+    font-size: 70.%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-background-size:100% 100%;
+    
 }
 
 header {
@@ -24,5 +29,47 @@ header a {
     border-radius:0.5px;
     padding: .50rem 1rem;
 }
+h1 {
+    color: red;
+    font-family: Papyrus;
+    font-size: 300px;
+    margin: 0.5em 0 0 .5em 0;
+    padding:0;
+}
+h2 {
+    font-family: Papyrus;
+    color: black;
+    font-size: 2.em;
+    padding: 0px;
+    margin: 0.5em, 0 0 0.35em 0;
+    }
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: black;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li {
+    margin: 0;
+    padding: 0 0 0 0.2em;
+}
+a, a:visited {
+    color: #C64322;
+}
+a:hover {
+    color: #333;
+}
+hr {
+    padding: 0;
+    margin: 1.5em, 1.5em, 0.75em, 0.5em;
+}
+
 
 
